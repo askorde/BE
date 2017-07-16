@@ -200,6 +200,134 @@ void moves(int a[3][3], int goal[3][3], Graph g, int c) //only h(n)
 		}
 }
 
+void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n)+h(n)
+{
+//check node being inserted exists in list already	
+	
+	
+	if(!open.size())
+	{
+		cout<<"\nError!\n";
+		return;
+	}
+	
+	if(!c)
+	{
+		cout<<"\nCount exhausted\n";
+		return;
+	}
+	
+	
+	int fmin = 99999, mini;
+	Node *sn;
+	sn=new Node;
+	for(int i=0; i<open.size(); i++)
+	{
+		int f=open[i]->h + open[i]->g;
+		cout<<i<<" "<<f<<endl;
+		//disp(open[i]->c);
+		if(f < fmin)
+		{
+			fmin = f;
+			sn = open[i];
+			mini = i;
+		}
+	}
+	cout<<"\nmin f(n) = "<<fmin<<" index = "<<mini<<"\n";
+	close.push_back(sn);
+	open.erase(open.begin()+mini);
+	disp(sn->c);	
+				
+	
+	int a[3][3];
+	cpy(a,sn->c);			
+	int na1[3][3],na2[3][3],na3[3][3],na4[3][3];
+	int hmin=9999, id, hv;
+	
+	for(int i=0;i<3;i++)
+		for(int j=0;j<3;j++)
+		{
+			if(a[i][j]==0)
+			{
+				if(i-1>=0){
+					cout<<"\nUP\n";
+					cpy(na1,a);
+					swap(na1,i,j,na1,i-1,j);
+					//disp(na1);
+					hv=h(na1,goal);
+					
+					Node *n;
+					n = new Node;
+					cpy(n->c,na1);
+					n->h=hv;
+					n->g=sn->g+1;
+					open.push_back(n);
+					
+					cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n->g<<endl;
+				}
+				//up
+				if(i+1<3){
+					cout<<"\nDOWN\n";
+					cpy(na2,a);
+					swap(na2,i+1,j,na2,i,j);
+					//disp(na2);
+					hv=h(na2,goal);
+					
+					Node *n2;
+					n2 = new Node;
+					cpy(n2->c,na2);
+					n2->h=hv;
+					n2->g=sn->g+1;
+					open.push_back(n2);
+					
+					cout<<"h(n),g(n) for move = "<<n2->h<<","<<n2->g<<endl;
+				}
+				//down
+				if(j-1>=0){
+					cout<<"\nLEFT\n";
+					cpy(na3,a);
+					swap(na3,i,j-1,na3,i,j);
+					//disp(na2);
+					hv=h(na3,goal);
+					
+					Node *n3;
+					n3 = new Node;
+					cpy(n3->c,na3);
+					n3->h=hv;
+					n3->g=sn->g+1;
+					open.push_back(n3);
+					
+					cout<<"h(n),g(n) for move = "<<n3->h<<","<<n3->g<<endl;
+				}
+				//left
+				if(j+1<3){
+					cout<<"\nRIGHT\n";
+					cpy(na4,a);
+					swap(na4,i,j+1,na4,i,j);
+					//disp(na4);
+					hv=h(na4,goal);
+					
+					Node *n4;
+					n4 = new Node;
+					cpy(n4->c,na4);
+					n4->h=hv;
+					n4->g=sn->g+1;
+					open.push_back(n4);
+					
+					cout<<"h(n),g(n) for move = "<<n4->h<<","<<n4->g<<endl;
+				}
+				//right
+				
+				cout<<"--------------------------------"<<endl;
+				
+				moves(goal,open, close,c-1);
+				
+				break;
+			}
+			
+		}
+}
+
 int main()
 {
 	int x[3][3] = {{2,8,3},{1,6,4},{7,0,5}};
@@ -211,10 +339,12 @@ int main()
 	Node *n=new Node;
 	cpy(n->c,x);
 	n->h=h(x,goal);
+	n->g=0;
 	
 	open.push_back(n);
 	disp(x);
 	cout<<"\nh(n)="<<h(x,goal)<<endl;
 	int c=10;
-	moves(x,goal,g,c);
+	//moves(x,goal,g,c);
+	moves(goal,open,close,c);
 }
