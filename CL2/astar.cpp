@@ -238,7 +238,17 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 	open.erase(open.begin()+mini);
 	disp(sn->c);	
 				
-	
+	if(!h(sn->c,goal))
+	{
+		cout<<"\nGoal Reached!\n";
+		
+		for(int i=0;i<close.size();i++)
+		{
+			disp(close[i]->c);
+			cout<<"\n--------------------------\n";
+		}
+		return;
+	}
 	int a[3][3];
 	cpy(a,sn->c);			
 	int na1[3][3],na2[3][3],na3[3][3],na4[3][3];
@@ -261,9 +271,8 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n->c,na1);
 					n->h=hv;
 					n->g=sn->g+1;
-					open.push_back(n);
-					
-					cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n->g<<endl;
+						open.push_back(n);
+						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n->g<<endl;
 				}
 				//up
 				if(i+1<3){
@@ -278,9 +287,8 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n2->c,na2);
 					n2->h=hv;
 					n2->g=sn->g+1;
-					open.push_back(n2);
-					
-					cout<<"h(n),g(n) for move = "<<n2->h<<","<<n2->g<<endl;
+						open.push_back(n2);
+						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n2->g<<endl;
 				}
 				//down
 				if(j-1>=0){
@@ -295,9 +303,9 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n3->c,na3);
 					n3->h=hv;
 					n3->g=sn->g+1;
-					open.push_back(n3);
-					
-					cout<<"h(n),g(n) for move = "<<n3->h<<","<<n3->g<<endl;
+						open.push_back(n3);
+						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n3->g<<endl;
+
 				}
 				//left
 				if(j+1<3){
