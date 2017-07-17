@@ -8,6 +8,7 @@ typedef struct Node
 {
     int h,g;
     int c[3][3];
+    Node *p;
     vector<Node*> child;
 }Node;
 
@@ -202,9 +203,6 @@ void moves(int a[3][3], int goal[3][3], Graph g, int c) //only h(n)
 
 void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n)+h(n)
 {
-//check node being inserted exists in list already	
-	
-	
 	if(!open.size())
 	{
 		cout<<"\nError!\n";
@@ -224,7 +222,7 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 	for(int i=0; i<open.size(); i++)
 	{
 		int f=open[i]->h + open[i]->g;
-		cout<<i<<" "<<f<<endl;
+		//cout<<i<<" "<<f<<endl;
 		//disp(open[i]->c);
 		if(f < fmin)
 		{
@@ -241,11 +239,26 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 	if(!h(sn->c,goal))
 	{
 		cout<<"\nGoal Reached!\n";
-		
+		/*
 		for(int i=0;i<close.size();i++)
 		{
-			disp(close[i]->c);
 			cout<<"\n--------------------------\n";
+			cout<<"\n--------------------------\n";
+			cout<<"Parent:"<<endl;
+			if(close[i]->p)disp(close[i]->p->c);
+			cout<<"\n--------------------------\n";
+			disp(close[i]->c);
+		}
+		*/
+		
+		//backtracking
+		Node *nx = new Node;
+		nx = sn;
+		while(nx)
+		{
+			disp(nx->c);
+			cout<<"\n--------------------------\n";
+			nx = nx->p;
 		}
 		return;
 	}
@@ -271,6 +284,7 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n->c,na1);
 					n->h=hv;
 					n->g=sn->g+1;
+					n->p=close.back();
 						open.push_back(n);
 						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n->g<<endl;
 				}
@@ -287,6 +301,7 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n2->c,na2);
 					n2->h=hv;
 					n2->g=sn->g+1;
+					n2->p=close.back();
 						open.push_back(n2);
 						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n2->g<<endl;
 				}
@@ -303,6 +318,7 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n3->c,na3);
 					n3->h=hv;
 					n3->g=sn->g+1;
+					n3->p=close.back();
 						open.push_back(n3);
 						cout<<"h(n),g(n) for move = "<<open.back()->h<<","<<n3->g<<endl;
 
@@ -320,6 +336,7 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 					cpy(n4->c,na4);
 					n4->h=hv;
 					n4->g=sn->g+1;
+					n4->p=close.back();
 					open.push_back(n4);
 					
 					cout<<"h(n),g(n) for move = "<<n4->h<<","<<n4->g<<endl;
