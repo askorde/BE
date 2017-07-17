@@ -8,6 +8,7 @@ typedef struct Node
 {
     int h,g;
     int c[3][3];
+    Node *p;
     vector<Node*> child;
 }Node;
 
@@ -224,20 +225,30 @@ void moves(int goal[3][3], vector<Node*> open, vector<Node*> close, int c) //g(n
 	for(int i=0; i<open.size(); i++)
 	{
 		int f=open[i]->h + open[i]->g;
-		cout<<i<<" "<<f<<endl;
+		//cout<<i<<" "<<f<<endl;
 		//disp(open[i]->c);
 		if(f < fmin)
 		{
 			fmin = f;
-			sn = open[i];
 			mini = i;
 		}
 	}
+	sn = open[mini];
 	cout<<"\nmin f(n) = "<<fmin<<" index = "<<mini<<"\n";
 	close.push_back(sn);
 	open.erase(open.begin()+mini);
 	disp(sn->c);	
-				
+	
+	if(!h(sn->c,goal))
+	{
+		cout<<"\nGoal Reached!\n";
+		for(int i=0;i<close.size();i++)
+		{
+			disp(close[i]->c);
+			cout<<"\n------------------------\n";
+		}
+		return;
+	}			
 	
 	int a[3][3];
 	cpy(a,sn->c);			
