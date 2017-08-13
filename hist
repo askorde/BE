@@ -1,0 +1,1000 @@
+  130  sudo apt install nvidia-cuda toolkit
+  131  sudo apt install nvidia-cuda-toolkit
+  132  Nvcc
+  133  NVCC
+  134  cd /usr/local/cuda-8.0/bin/
+  135  ls
+  136  ./nvcc
+  137  export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  138  cd ~
+  139  nvcc
+  140  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  141  nvcc
+  142  nvcc a.k
+  143  $ export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  144  sudo export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  145  export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  146  nvcc
+  147  $ export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  148  export PATH= $PATH /usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  149  export PATH= $PATH+ /usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+  150  export PATH=/usr/local/cuda-8.0/bin ${PATH:+:${PATH}}
+  151  gcc
+  152  nvcc
+  153  {PATH:+:${PATH}}
+  154  export PATH=$PATH:/usr/local/cuda-8.0/bin ${PATH:+:${PATH}}
+  155  export PATH=$PATH:/usr/local/cuda-8.0/bin
+  156  nvcc
+  157  gcc
+  158  g++
+  159  gedit
+  160  nvcc
+  161  gcc
+  162  echo $PATH
+  163  nvcc --version
+  164  echo $LD_LIBRARY_PATH 
+  165  cd /usr/local/cuda-8.0//samples
+  166  ls
+  167  cd 0
+  168  cd 0_Simple/
+  169  ls
+  170  cd matrixMul
+  171  ls
+  172  cat matrixMul.cu 
+  173  gedit matrixMul.cu 
+  174  cat /proc/driver/nvidia/version
+  175  nvcc -V
+  176  bandwidthTest
+  177  cuda-gdb
+  178  gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+  179  sudo gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
+  180  ls /usr/
+  181  ls /lib/firmware/
+  182  tlp
+  183  tlp stat
+  184  sudo tlp stat
+  185  nvcc
+  186  nvcc --help
+  187  python3
+  188  cd Documents/
+  189  python3 tpwork/tp.py 
+  190  cd /usr/share/application
+  191  cd /usr/share/applications
+  192  ls
+  193  qbittorrent 
+  194  gedit qBittorrent.desktop 
+  195  gedit defaults.list 
+  196  sudo gedit defaults.list 
+  197  sudo gedit qBittorrent.desktop 
+  198  cd /usr/share/application
+  199  cd /usr/share/applications
+  200  sudo gedit qBittorrent.desktop 
+  201  sudo gedit transmission-gtk.desktop 
+  202  sudo gedit qBittorrent.desktop 
+  203  java --version
+  204  java --v
+  205  java -v
+  206  java --help
+  207  java -h
+  208  java -version
+  209  javac -version
+  210  cd /usr/bin
+  211  ls | hrep java
+  212  ls | grep java
+  213  ./java -version
+  214  java
+  215  -Xms80m
+  216  -Xmx1G
+  217  -XX:MaxPermSize=256m
+  218  -XX:CompileCommand=exclude,java/lang/reflect/Array,newInstance
+  219  -Dosgi.requiredJavaVersion=1.6
+  220  -jar /usr/local/cuda-8.0/libnsight//plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar
+  221  -os linux
+  222  -ws gtk
+  223  -arch x86_64
+  224  -showsplash
+  225  -launcher /usr/local/cuda-8.0/libnsight/nsight
+  226  -name Nsight
+  227  --launcher.library /usr/local/cuda-8.0/libnsight//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.200.v20140603-1326/eclipse_1605.so
+  228  -startup /usr/local/cuda-8.0/libnsight//plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar
+  229  --launcher.overrideVmargs
+  230  -exitdata 24000b
+  231  -vm /usr/bin/java
+  232  -vmargs
+  233  -Xms80m
+  234  -Xmx1G
+  235  -XX:MaxPermSize=256m
+  236  -XX:CompileCommand=exclude,java/lang/reflect/Array,newInstance
+  237  -Dosgi.requiredJavaVersion=1.6
+  238  cd Desktop/
+  239  chmod +x Untitled\ Document 
+  240  ./Untitled\ Document 
+  241  cd Desktop/
+  242  ./Untitled\ Document 
+  243  sudo update-alternatives --config java
+  244  java -version
+  245  javac -version
+  246  sudo update-alternatives --config javac
+  247  sudo apt install gparted
+  248  gparted
+  249  sudo apt purge gparted
+  250  sudo apt install gparted
+  251  gparted
+  252  sudo gparted
+  253  sudo apt-get purge gparted
+  254  sudo apt-get install gparted
+  255  sudo gparted
+  256  synaptic
+  257  sudo apt install synaptic
+  258  sudo apt=get -f install
+  259  sudo apt-get -f install
+  260  sudo apt -f install
+  261  sudo synaptic
+  262  sudo apt-get -f install
+  263  sudo gparted
+  264  sudo apt purge gparted
+  265  sudo gparted
+  266  sudo ls /usr/sbin/g*
+  267  sudo ls /usr/sbin/libgtkmm
+  268  sudo ls /usr/sbin/libgtkmm*
+  269  sudo apt-get install libgtkmm-2.4.so.1
+  270  sudo ls /usr/sbin/libgtkmm*
+  271  sudo ls /usr/sbin/
+  272  gparted
+  273  sudo gparted
+  274  javac tp.java
+  275  java tp
+  276  javac tp.java
+  277  java tp
+  278  javac tp.java 
+  279  javac tp2
+  280  java tp2
+  281  java tp
+  282  g++ tp.cpp
+  283  sudo chmod +x eclipse
+  284  ./eclipse 
+  285  ./a.out
+  286  g++ tp.cpp
+  287  ./a.out
+  288  g++ tp.cpp
+  289  ./a.out
+  290  g++ tp.cpp
+  291  ./a.out
+  292  g++ tp.cpp
+  293  ./a.out
+  294  g++ tp.cpp
+  295  ./a.out
+  296  g++ tp.cpp
+  297  ./a.out
+  298  g++ tp.cpp
+  299  ./a.out
+  300  g++ tp.cpp
+  301  ./a.out
+  302  g++ tp.cpp
+  303  ./a.out
+  304  g++ tp.cpp
+  305  ./a.out
+  306  g++ tp.cpp
+  307  ./a.out
+  308  g++ tp.cpp
+  309  ./a.out
+  310  g++ tp.cpp
+  311  ./a.out
+  312  g++ tp.cpp
+  313  ./a.out
+  314  g++ tp.cpp
+  315  ./a.out
+  316  g++ tp.cpp
+  317  ./a.out
+  318  g++ tp.cpp
+  319  ./a.out
+  320  g++ tp.cpp
+  321  ./a.out
+  322  g++ tp.cpp -g
+  323  gdb ./a.out
+  324  g++ tp.cpp -g
+  325  ./a.out
+  326  gdb ./a.out
+  327  g++ tp.cpp -g
+  328  ./a.out
+  329  g++ tp.cpp -g
+  330  ./a.out
+  331  g++ tp.cpp -g
+  332  ./a.out
+  333  g++ tp.cpp -g
+  334  ./a.out
+  335  gdb ./.aout
+  336  gdb ./a.out
+  337  g++ tp.cpp -g
+  338  ./a.out
+  339  gdb ./a.out
+  340  g++ tp.cpp -g
+  341  gdb ./a.out
+  342  g++ tp.cpp -g
+  343  ./a.out
+  344  g++ tp.cpp -g
+  345  ./a.out
+  346  gdb ./a.out
+  347  ./a.out
+  348  g++ tp.cpp -g
+  349  ./a.out
+  350  g++ tp.cpp -g
+  351  ./a.out
+  352  g++ tp.cpp -g
+  353  ./a.out
+  354  g++ tp.cpp -g
+  355  ./a.out
+  356  g++ tp.cpp -g
+  357  ./a.out
+  358  g++ tp.cpp -g
+  359  ./a.out
+  360  g++ tp.cpp -g
+  361  ./a.out
+  362  g++ tp.cpp -g
+  363  ./a.out
+  364  g++ tp.cpp -g
+  365  ./a.out
+  366  gdb ./a.out
+  367  g++ tp.cpp -g
+  368  gdb ./a.out
+  369  sudo gedit /etc/sysctl.cnf
+  370  sudo gedit /etc/sysctl.conf
+  371  cat /proc/sys/net/ipv6/conf/all/disable_ipv6
+  372  echo $JAVA_HOME
+  373  echo JAVA_HOME
+  374  sudo apt install maven
+  375  sudo addgroup hadoop
+  376  sudo adduser --ingroup hadoop hduser
+  377  su - hduser
+  378  mvn --version
+  379  echo $M2_HOME
+  380  echo $PATH
+  381  openssl
+  382  openssl version
+  383  cd Downloads/
+  384  cd hadoop-2.8.0-src/
+  385  ls
+  386  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  387  sudo apt install protoc
+  388  protoc --version
+  389  sudo apt install protobuf-compiler
+  390  protoc -version
+  391  protoc --version
+  392  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  393  sudo apt purge protobuf-compiler 
+  394  wget https://github.com/google/protobuf/releases/download/v2.5.0/protobuf-2.5.0.tar.gz
+  395  tar -xzf protobuf-2.5.0.tar.gz
+  396  cd protobuf-2.5.0
+  397  ./configure 
+  398  make
+  399  make check
+  400  make install
+  401  sudo make install
+  402  protoc --version
+  403  sudo protoc --version
+  404  sudo make check
+  405  sudo make install
+  406  sudo protoc --version
+  407  sudo ldconfig
+  408  sudo protoc --version
+  409  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  410  cd /usr/local
+  411  sudo nautilus
+  412  sudo chown -R hduser:hadoop hadoop
+  413  sudo install openssh-server
+  414  sudo apt install openssh-server
+  415  su hduser
+  416  mvn --version
+  417  su hduser
+  418  cd Downloads/hadoop-2.8.0-src/
+  419  mvn package -Pdist,native,docs -DskipTests -Dtar
+  420  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  421  protoc --version
+  422  ldconfig
+  423  sudo ldconfig
+  424  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  425  java --version
+  426  sudo update-alternatives --config javac
+  427  sudo update-alternatives --config java
+  428  java --version
+  429  java -version
+  430  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  431  java -version
+  432  sudo update-alternatives --config java
+  433  sudo update-alternatives --config javac
+  434  mvn -Pdist -Pdoc -Psrc -Dtar -DskipTests -rf :hadoop-common
+  435  sudo update-alternatives --config javac
+  436  sudo apt install java
+  437  sudo apt install oracle
+  438  sudo apt install oracle-jdk
+  439  sudo apt install *-jdsudo add-apt-repository ppa:webupd8team/java
+  440  sudo add-apt-repository ppa:webupd8team/java
+  441  sudo apt update
+  442  sudo apt list --upgradable
+  443  $ sudo apt-get install oracle-java8-installer
+  444  sudo apt install oracle-java8-installer
+  445  java --version
+  446  java -version
+  447  javac -version
+  448  javac Cleaner.java 
+  449  mvn -Pdist -Pdoc -Psrc -Dtar -DskipTests -rf :hadoop-common
+  450  mvn -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  451  mvn package -Pdist -Pdoc -Psrc -Dtar -DskipTests
+  452  sudo rm -r /usr/local/hadoo
+  453  sudo rm -r /usr/local/hadoop
+  454  sudo rv hadoop-2.8.0/ /usr/local/hadoop/
+  455  sudo mv hadoop-2.8.0/ /usr/local/hadoop/
+  456  sudo chown -R hduser:hadoop hadoop
+  457  sudo chown -R hduser:hadoop /usr/local/hadoop
+  458  su hadoop
+  459  su hduser
+  460  which java
+  461  sudo up
+  462  sudo update-alternatives --config java
+  463  su hduser
+  464  sudo nautilus
+  465  cd /usr/local/hadoop/etc/hadoop/
+  466  sudo nautilus
+  467  sudo nautilus .
+  468  su hduser
+  469  export DISPLAY=:0
+  470  su hduser
+  471  ssh -X hduser@xerus
+  472  xhost +
+  473  su hduser
+  474  nautilus
+  475  usermod -aG sudo hduser
+  476  sudo usermod -aG sudo hduser
+  477  su hduser
+  478  xmod +
+  479  xhost +
+  480  xhost -
+  481  xhost +
+  482  su hduser
+  483  service network-manager restart
+  484  su hduser
+  485  sudo rm -r Documents/
+  486  sudo rm -R Documents/
+  487  cd Documents/
+  488  ls
+  489  cd web
+  490  sudo rm -R .
+  491  sudo rm -r .
+  492  sudo rm -r testapp/
+  493  sudo rm -r testapp/.git/objects/
+  494  cd testapp/.git/objects/
+  495  ls
+  496  sudo service network-manager restart
+  497  cd Documents/
+  498  g++ asgn1.cpp -o asgn1
+  499  ./asgn1 
+  500  sudo apt update
+  501  sudo apt list --upgradable
+  502  sudo apt upgrade
+  503  sudo apt autoremove
+  504  sudo apt upgrade
+  505  sudo apt update
+  506  aplay
+  507  mpd
+  508  g++ asgn1.cpp -o asgn1
+  509  cd Documents/tpwork/
+  510  cd ..
+  511  g++ asgn1.cpp -o asgn1 && ./asgn1
+  512  time
+  513  date
+  514  hwclock
+  515  sudo hwclock
+  516  date
+  517  sudo hwclock
+  518  sudo hwclock --help
+  519  sudo hwclock -s
+  520  timedatectl set-local-rtc 1
+  521  sudo gedit /etc/default/rc5
+  522  sudo ls /etc/default/rc5
+  523  sudo ls /etc/default/
+  524  sudo ls /etc/default/rcS
+  525  sudo gedit /etc/default/rcS
+  526  sudo gedit /etc/adjtime 
+  527  adjtimex
+  528  sudo hwclock
+  529  sudo hwclock --getepoch
+  530  sudo hwclock -s
+  531  sudo hwclock -u
+  532  sudo hwclock --local-time
+  533  sudo hwclock --localtime
+  534  sudo hwclock --test
+  535  sudo hwclock -r
+  536  sudo hwclock --adjust
+  537  sudo hwclock -r
+  538  sudo gedit /etc/adjtime 
+  539  sudo tlp
+  540  sudo tlp start
+  541  man rcS
+  542  man adjtime
+  543  man hwclokc
+  544  man hwclock
+  545  service network-manager restart
+  546  ./studio.sh
+  547  ./studio.sh
+  548  chmod +x flash-player-ppapi-26.0.0.131-release.x86_64.rpm 
+  549  ./flash-player-ppapi-26.0.0.131-release.x86_64.rpm 
+  550  ssh korde@192.168.122.1
+  551  ssh korde@192.168.43.241
+  552  ifconfid
+  553  ifconfig
+  554  ssh korde@169.254.16.66
+  555  sftp korde@169.254.16.66
+  556  scp korde@xenial:/home/korde/Android ~/Android
+  557  scp korde@xenial:/home/korde/Android/. ~/Android/.
+  558  scp korde@xenial:/home/korde/Android/ ~/Android/.
+  559  scp korde@xenial:/home/korde/CodingForum.xlsx ~/Android/.
+  560  scp korde@xenial:/home/korde/CodingForum.xlsx ~/Android/
+  561  scp korde@xenial:/home/korde/CodingForum.xlsx ~/
+  562  sftp korde@xenial
+  563  !
+  564  ?
+  565  cd Documents/
+  566  ls
+  567  sftp korde@169.254.16.66
+  568  cd /media/korde/Work/
+  569  cd Documents/
+  570  sftp korde@169.254.16.66
+  571  cd ../Downloads/
+  572  sftp korde@169.254.16.66
+  573  cd /media/korde/Work/
+  574  sftp
+  575  sftp korde@169.254.16.66
+  576  ./android 
+  577  ./bin/sdkmanager 
+  578  ./bin/sdkmanager --sdk_root=/home/korde/Android/Sdk
+  579  ./bin/sdkmanager --list
+  580  ls
+  581  ./bin/sdkmanager --update
+  582  ./bin/sdkmanager
+  583  ./android
+  584  ./android list sdk
+  585  ./android update sdk
+  586  cd ~/android-studio/
+  587  ls
+  588  bin/studio.sh 
+  589  ndk-build
+  590  ~/Android/Sdk/ndk-bundle/ndk-build 
+  591  ant release
+  592  android update project
+  593  ~/Android/Sdk/tools/android update project
+  594  sudo chmod +x gradlew
+  595  sudo chmod +x ./gradlew
+  596  ls
+  597  cd ..
+  598  sudo chmod +x ./gradlew
+  599  gradlew assemble
+  600  ./gradlew assemble
+  601  cd tess-two
+  602  ant release
+  603  ~/Android/Sdk/tools/android update
+  604  sudo service network-manager status
+  605  sudo service network-manager force-reload 
+  606  sudo service network-manager restart
+  607  ifconfig list
+  608  ifconfig 
+  609  ifconfig enp2s0 list
+  610  ifconfig enp2s0 
+  611  ifconfig enp2s0 --help
+  612  ifconfig enp2s0 l
+  613  ifconfig --help
+  614  nmao
+  615  nmap
+  616  sudo apt install nmao
+  617  sudo apt install nmap
+  618  nmap
+  619  nmap -sL
+  620  nmap -sL enp2s0
+  621  sftp korde@169.254.16.66
+  622  cd Documents/
+  623  mkdir tmp
+  624  cd tmp/
+  625  ls
+  626  sftp korde@169.254.16.66
+  627  ant release
+  628  ./gradlew assemble
+  629  sudo chmod +x gradlew
+  630  ./gradlew assemble
+  631  ant release
+  632  ndk-build
+  633  ~/Android/Sdk/ndk-bundle/ndk-build 
+  634  ant release
+  635  ant --help
+  636  which ant
+  637  ./gradlew assemble
+  638  ls
+  639  cd ..
+  640  cd tess-two-master/
+  641  ls
+  642  sudo chmod +x gradlew
+  643  ./gradlew assemble
+  644  ./gradlew --help
+  645  cd tess-two
+  646  ls
+  647  ~/Android/Sdk/ndk-bundle/ndk-build 
+  648  ~/Android/Sdk/tools/android update project -p
+  649  echo $GRADLE_USER_HOME
+  650  sudo service network-manager restart
+  651  dpkg -i skypeforlinux-64.deb 
+  652  sudo dpkg -i skypeforlinux-64.deb 
+  653  sudo aptitude
+  654  neofetch
+  655  ifconfig 
+  656  sudo service network-manager restart
+  657  ifconfig 
+  658  sudo service network-manager restart
+  659  ifconfig 
+  660  su hduser
+  661  sudo service network-manager restart
+  662  su hduser
+  663  sudo chmod +x flash-player-ppapi-26.0.0.131-release.x86_64.rpm 
+  664  sudo rpm -e flash-player-ppapi-26.0.0.131-release.x86_64.rpm
+  665  rpm
+  666  sudo apt install rpm
+  667  sudo rpm -e flash-player-ppapi-26.0.0.131-release.x86_64.rpm
+  668  rpm -h
+  669  rpm --help
+  670  sudo rpm -i flash-player-ppapi-26.0.0.131-release.x86_64.rpm
+  671  sudo dpkg -i flash-player-ppapi-26.0.0.131-release.x86_64.rpm
+  672  dnf
+  673  sudo rpm -i *.rpm
+  674  sudo apt install glibc-source 
+  675  sudo rpm -i *.rpm
+  676  sudo apt install -f
+  677  sudo apt install -U
+  678  sudo apt -U install
+  679  sudo apt install -U
+  680  sudo apt install --help
+  681  sudo apt upgrade glibc
+  682  sudo apt upgrade glibc-source
+  683  sudo rpm -i *.rpm
+  684  sudo apt install vim
+  685  su hduser
+  686  sudo service network-manager restart
+  687  synaptic
+  688  sudo synaptic
+  689  ping 192.168.43.255
+  690  ping -b 192.168.43.255
+  691  cd Documents/tpwork/
+  692  ls
+  693  cd /media/hduser/W
+  694  cd /media/korde/Work/
+  695  cd Documents/
+  696  cd College/BE/PW/
+  697  ls
+  698  mkdir ann_prac
+  699  cd ann_prac/
+  700  touch not.py
+  701  gedit not.py 
+  702  python not.py 
+  703  python3 not.py 
+  704  python3 or.py 
+  705  sudo service network-manager restart 
+  706  cd Documents/
+  707  g++ astar.cpp -o astar && ./astar
+  708  g++ binary.cpp -o binary && ./binary
+  709  git add .
+  710  sudo apt install git
+  711  git init
+  712  git add .
+  713  git commit -m "First commit"
+  714  git config --global user.email "askorde2@gmail.com"
+  715  git config --global user.name "Ajinkya"
+  716  git config --global user.name "askorde"
+  717  git commit -m "First commit"
+  718  git remote add origin https://github.com/askorde/BE_Pracs.git
+  719  git push -u origin master
+  720  git add .
+  721  git config --global user.email "askorde@github.com"
+  722  git commit -m "Renamed"
+  723  git push -u origin master
+  724  javac tp.java 
+  725  java tp
+  726  javac tp.java 
+  727  java tp
+  728  g++ tp2.cpp
+  729  gcc tp2.c
+  730  ./a.out
+  731  gcc tp2.c
+  732  ./a.out
+  733  gcc tp2.c
+  734  ./a.out
+  735  gcc tp2.c
+  736  ./a.out
+  737  gcc tp2.c
+  738  ./a.out
+  739  sudo apt install youtube-dl
+  740  youtube-dl
+  741  youtube-dl https://www.pornhub.com/view_video.php?viewkey=ph58fe4421a10b4
+  742  sudo pip3 install nltk
+  743  python3
+  744  sudo pip3 install scrapy
+  745  python3
+  746  sudo add-apt-repository ppa:mc3man/mpv-tests
+  747  sudo apt update
+  748  git clone 
+  749  g++ astar.cpp -o astar && ./astar
+  750  cd ..
+  751  git add .
+  752  git commit -m "astar changes"
+  753  git push
+  754  git push -u origin master
+  755  sudo apt purge cairo-dock-plug-ins-data cairo-dock-data 
+  756  sudo s
+  757  sudo apt install vlc
+  758  sudo apt install vlc-plugin-*
+  759  sudo apt install vlc-nox 
+  760  sudo apt install vlc-plugin-jack
+  761  cd Documents/BE/CL2/
+  762  ./astar
+  763  g++ astar.cpp -o astar && ./astar
+  764  cd ../..
+  765  cd BE/
+  766  git add .
+  767  git commit -m "astar changes2"
+  768  git push origin master
+  769  g++ astar.cpp -o astar && ./astar
+  770  cd CL2/
+  771  g++ astar.cpp -o astar && ./astar
+  772  cd ..
+  773  git pull
+  774  git log
+  775  git revert 32917234d5fbbf1c8dea780079f9a340a536ae31
+  776  git stash
+  777  git revert 32917234d5fbbf1c8dea780079f9a340a536ae31
+  778  cd CL2
+  779  g++ astar.cpp -o astar && ./astar
+  780  git diff
+  781  git stash apply
+  782  g++ astar.cpp -o astar && ./astar
+  783  cd ..
+  784  git add .
+  785  git commit -m "astar errors fixed"
+  786  git push origin master
+  787  git diff
+  788  g++ astar.cpp -o astar && ./astar
+  789  cd CL2
+  790  g++ astar.cpp -o astar && ./astar
+  791  cd ..
+  792  git add .
+  793  git commit -m "astar complete"
+  794  git push origin master
+  795  ifcofig
+  796  ifconfig
+  797  nvcc --version
+  798  cat /usr/local/cuda/version.txt
+  799  sudo dpkg -i libcudnn6*
+  800  pip3 install --upgrade pip3
+  801  pip3 install --upgrade pip
+  802  sudo pip3 install tensorflow-gpu
+  803  sudo pip3 install --upgrade tfBinaryURL
+  804  python3
+  805  sudo python3
+  806  cd /usr/local/cuda/lib64
+  807  ls
+  808  cd ../../
+  809  cd cuda-8.0/
+  810  ls
+  811  cd lib64
+  812  sudo nautilus
+  813  echo $LD_LIBRARY_PATH 
+  814  echo $PATH 
+  815  cd ~/Downloads/
+  816  dpkg -i libcudnn6_6.0.21-1+cuda8.0_amd64.deb 
+  817  sudo dpkg -i libcudnn6_6.0.21-1+cuda8.0_amd64.deb 
+  818  pytohn3
+  819  python3
+  820  pip3 show tensorflow
+  821  pip show tensorflow
+  822  sudo ldconfig /usr/local/cuda/lib64
+  823  deviceQuery
+  824  sudo ln -s /usr/lib/nvidia-375/libEGL.so.375.39 /usr/lib/nvidia-375/libEGL.so.1
+  825  sudo mv /usr/lib/nvidia-375/libEGL.so.1 /usr/lib/nvidia-375/libEGL.so.1.org
+  826  sudo mv /usr/lib32/nvidia-375/libEGL.so.1 /usr/lib32/nvidia-375/libEGL.so.1.org
+  827  sudo ln -s /usr/lib/nvidia-375/libEGL.so.375.39 /usr/lib/nvidia-375/libEGL.so.1
+  828  sudo ln -s /usr/lib32/nvidia-375/libEGL.so.375.39 /usr/lib32/nvidia-375/libEGL.so.1
+  829  ldconfig
+  830  sudo ldconfig
+  831  sudo ldconfig /usr/local/cuda/lib64
+  832  python3
+  833  echo $LD_LIBRARY_PATH 
+  834  python3
+  835  sudo nautilus
+  836  python3 naive_bayes.py 
+  837  g++ astar.cpp -o astar && astar
+  838  g++ astar.cpp -o astar && ./astar
+  839  cd ..
+  840  git add .
+  841  git commit -m 'astar mods' 
+  842  git push origin master
+  843  sudo apt updare
+  844  sudo apt update
+  845  sudo networkctl 
+  846  sudo systemd-networkd
+  847  sudo service systemd-networkd start
+  848  sudo networkctl 
+  849  sdo apt install synapse
+  850  sudo apt install synapse
+  851  nm-applet 
+  852  sudo nm-applet 
+  853  indicator-multiload 
+  854  dbus-launch nm-applet
+  855  sudo apt install indicator-applet
+  856  indicator-applet
+  857  sudo apt install indicator-network
+  858  sudo apt remove indicator-network
+  859  python3
+  860  sudo pip3 install tflearn
+  861  python
+  862  python3
+  863  sudo pip3 install hdf5
+  864  sudo apt install h5py
+  865  sudo pip3 install h5py
+  866  python3
+  867  cd Downloads/
+  868  mv cornell_movie_dialogs_corpus.zip /media/korde/Work/Documents/DataScience/tp_projs/
+  869  cd /media/korde/Work/Documents/DataScience/
+  870  cd tp_projs/
+  871  mv cornell_movie_dialogs_corpus.zip.zip ./tf_chatbot/
+  872  mv cornell_movie_dialogs_corpus.zip ./tf_chatbot/
+  873  cd tf_chatbot/
+  874  touch bot.py
+  875  gedit bot.py 
+  876  cd /media/korde/Work/Documents/
+  877  cd DataScience/
+  878  export %DS_HOME = /media/korde/Work/Documents/DataScience/
+  879  export $DS_HOME = /media/korde/Work/Documents/DataScience/
+  880  export $DS_HOME = '/media/korde/Work/Documents/DataScience/'
+  881  $DS_HOME = '/media/korde/Work/Documents/DataScience/'
+  882  $DS_HOME= '/media/korde/Work/Documents/DataScience/'
+  883  export DS_HOME = '/media/korde/Work/Documents/DataScience/'
+  884  export --help
+  885  man export
+  886  DS_HOME = '/media/korde/Work/Documents/DataScience/'
+  887  $DS_HOME = '/media/korde/Work/Documents/DataScience/'
+  888  $DS_HOME=/media/korde/Work/Documents/DataScience/
+  889  $DS_HOME=/media/korde/Work/Documents/DataScience$
+  890  DS_HOME=/media/korde/Work/Documents/DataScience$
+  891  cd DS_HOME
+  892  cd $DS_HOME
+  893  DS_HOME=/media/korde/Work/Documents/DataScience/
+  894  cd $DS_HOME
+  895  cd tp_projs/
+  896  cd tf_chatbot/
+  897  gedit bot.py 
+  898  sudo service network-manager restart
+  899  flex
+  900  sudo apt install flex
+  901  flex sym_table_c.l && gcc lex.yy.c && ./a.out
+  902  flex sym_table.l && gcc lex.yy.c && ./a.out
+  903  flex sym_table_c.l && gcc lex.yy.c && ./a.out
+  904  g++ quicksort.cpp -o quicksort && ./quicksort
+  905  g++ quicksort.cpp -fopenmp -o quicksort && ./quicksort
+  906  cd ..
+  907  git add .
+  908  git commit -m "concurrent quicksort added"
+  909  git push origin master
+  910  git remote add origin https://github.com/korde96/BE_Pracs.git
+  911  git remote -v
+  912  git remote rm origin
+  913  git remote add origin https://github.com/korde96/BE_Pracs.git
+  914  git remote -v
+  915  git add .
+  916  sudo apt install indicator-network
+  917  history >> hist
+  918  gedit hist 
+  919  sudo apt remove indicator-network
+  920  indicator-applet
+  921  dbus-launch nm-applet
+  922  networkctl
+  923  sudo service systemd-networkd start
+  924  networkctl
+  925  nm-applet 
+  926  nm
+  927  sudo tlp
+  928  sudo tlp start
+  929  sudo tlp recalibrate 
+  930  sudo tlp stat
+  931  powertop
+  932  sudo attitude install powertop
+  933  sudo apt install powertop
+  934  sudo powertop
+  935  sudo apt install i8kmon
+  936  sudo apt install i8kutils 
+  937  i8kmon 
+  938  i8kmon -a
+  939  sudo powertop
+  940  nvidia-smi
+  941  sudo powertop
+  942  7.28, 2 > timepred
+  943  "7.28, 2" > timepred
+  944  echo "7.28, 2" > timepred
+  945  cat timepred 
+  946  sudo powertop
+  947  sudo service network-manager restart
+  948  coala
+  949  yarn
+  950  yarn --version
+  951  yarn --v
+  952  yarn -v
+  953  yarn version
+  954  git init
+  955  git status
+  956  cd ..
+  957  git clone https://github.com/sukeesh/Jarvis.git
+  958  cd Jarvis/
+  959  git remote add upstream https://github.com/sukeesh/Jarvis.git
+  960  git remote -v
+  961  python setup.py 
+  962  python3 setup.py 
+  963  ./setup.sh 
+  964  python jarviscli/
+  965  python3 naive_bayes.py 
+  966  python naive_bayes.py 
+  967  python3 naive_bayes.py 
+  968  cd Documents/
+  969  ls
+  970  cd tpwork/
+  971  gedit tp.cpp
+  972  sudo service network-manager restart
+  973  g++ tp.cpp && ./a.out
+  974  jupyter notebook
+  975  python3 script.py 
+  976  python3
+  977  sudo rm .
+  978  sudo rm -r .
+  979  cd ..
+  980  sudo rm -r machine-learning-ex4
+  981  octave
+  982  git status
+  983  git diff
+  984  git fetch
+  985  git diff
+  986  git merge
+  987  git checkout -b "local"
+  988  git merge
+  989  git checkout
+  990  git branch local
+  991  git branch local remove
+  992  git branch -D local
+  993  git checkout
+  994  git checkout master
+  995  git branch -D local
+  996  git stash
+  997  git pull origin master'
+  998  git pull origin master
+  999  git stash apply
+ 1000  git add .
+ 1001  git stash apply
+ 1002  git commit -m "naive_bayes incomplete"
+ 1003  git push origin master
+ 1004  javac tp.java 
+ 1005  java tp
+ 1006  javac tp.java 
+ 1007  java tp
+ 1008  javac tp.java 
+ 1009  java tp
+ 1010  javac tp.java 
+ 1011  java tp
+ 1012  javac tp.java 
+ 1013  java tp
+ 1014  javac tp.java 
+ 1015  java tp
+ 1016  javac tp.java 
+ 1017  sudo apt-add-repository ppa:octave/stable
+ 1018  sudo apt update
+ 1019  sudo apt install octave
+ 1020  cd ~
+ 1021  cd .config
+ 1022  sudo chown octave korde
+ 1023  sudo chown korde octave
+ 1024  cd octave/
+ 1025  sudo chown korde qt-settings
+ 1026  octave
+ 1027  sudo service network-manager restart
+ 1028  xset dpms force standby
+ 1029  g++ knapsack.cpp
+ 1030  ./a.out
+ 1031  nvidia-smi
+ 1032  watch nvidia-smi
+ 1033  python3 bot.py
+ 1034  python3 bot.py 
+ 1035  watch nvidia-smi
+ 1036  tensorboard
+ 1037  tensorboard --logdir=tflearn_logs
+ 1038  sudo service network-manager restart
+ 1039  g++ tp.cpp && ./a.out
+ 1040  nm-applet 
+ 1041  sudo tlp stat
+ 1042  python3
+ 1043  python3
+ 1044  sudo service network-manager restart
+ 1045  python3
+ 1046  google
+ 1047  nm-applet 
+ 1048  sudo service network-manager restart
+ 1049  sudo nautilus
+ 1050  sudo apt install wicd
+ 1051  wicd-client
+ 1052  sudo apt install sconf-editor
+ 1053  sudo apt install dconf-editor
+ 1054  dconf
+ 1055  dconf list
+ 1056  dconf list desktop
+ 1057  dconf list /desktop
+ 1058  dconf list /desktop/
+ 1059  dconf>desktop>unity
+ 1060  dconf>desktop>unity>panel
+ 1061  dconf>desktop>unity>panel whitelist
+ 1062  sudo apt install wicd-gtk
+ 1063  unity --replace
+ 1064  wicd-gtk
+ 1065  sudo apt-get install python-appindicator
+ 1066  wicd
+ 1067  wicd-gtk
+ 1068  indicator-sensors
+ 1069  sudo apt install indicator-sensors
+ 1070  sudo apt-add-repository ppa:alexmurray/indicator-sensors 
+ 1071  sudo apt update
+ 1072  sudo apt install indicator-sensors
+ 1073  sudo apt update
+ 1074  wicd --tray
+ 1075  wicd-gtk --tray
+ 1076  sudo service network-manager restart
+ 1077  sudo apt purge wicd
+ 1078  sudo service network-manager restart
+ 1079  sudo apt install gconf-editor
+ 1080  gconf-editor 
+ 1081  sudo apt purge wicd-gtk wicd-daemon 
+ 1082  sudo apt install compizconfig-settings-manager
+ 1083  sudo service network-manager restart
+ 1084  sudo apt install compizconfig-settings-manager
+ 1085  history
+ 1086  sudoa pt purge indicator-sensors
+ 1087  sudo apt purge indicator-sensors
+ 1088  sudo gedit /etc/pm/config.d/config
+ 1089  dpkg -l | grep network-manager
+ 1090  killall nm-applet && nm-applet &
+ 1091  killall nm-applet
+ 1092  killall nm-applet && nm-applet &
+ 1093  nm-applet &
+ 1094  sudo lshw -class network
+ 1095  sudo service network-manager restart
+ 1096  nm-applet &
+ 1097  ping google.com
+ 1098  ping www.google.com
+ 1099  ping 192.168.43.1
+ 1100  sudo rm /etc/pm/config.d/config
+ 1101  sudo service network-manager restart
+ 1102  ping youtube.com
+ 1103  ping https://google.com
+ 1104  ping https://code.google.com/codejam/kickstart/schedule
+ 1105  sudo lshw -class network
+ 1106  ifconfig
+ 1107  ping 192.168.43.10
+ 1108  ping 192.168.43.25
+ 1109  ping 192.168.43.255
+ 1110  ping 192.168.43.255 -b
+ 1111  which nm-applet 
+ 1112  sudo service network-manager restart
+ 1113  python3 or.py 
+ 1114  python3 naive_bayes.py 
+ 1115  python3 or.py 
+ 1116  python3 naive_bayes.py 
+ 1117  cd ..
+ 1118  git add .
+ 1119  git commit -m "naive_bayes progress"
+ 1120  git push origin master
+ 1121  git stash
+ 1122  git pull
+ 1123* git push ori master
+ 1124  git merge
+ 1125  git checkout
+ 1126  git --help
+ 1127  git checkout --help
+ 1128  history >> hist
+ 1129  history > hist
