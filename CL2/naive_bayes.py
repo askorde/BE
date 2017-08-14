@@ -91,12 +91,15 @@ print("exp_p\n",exp_p)
 test = [30,"MTech.",8]
 test_p={}
 
+print("Probability values for ",test) 
 am=1
 qm=1
 em=0
 for w in work_p:
 	test_p[w]=0
-	test_p[w]=age_p[am][w]*qual_p[qm][w]*exp_p[em][w]
+	test_p[w]=age_p[am][w]*qual_p[qm][w]*exp_p[em][w]*work_p[w]/len(data)
+
+print(test_p)
 
 for w,p in test_p.items():
 	if(p==max(test_p.values())):
