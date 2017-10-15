@@ -25,7 +25,8 @@ def loadDataset(filename, split ):
 	testSet=[]
 	f = open('iris.data', 'r')
 	data = f.readlines()
-	dataset = [data[i].strip().split(',') for i in range(len(data)) ]
+	print(str("\n").strip())
+	dataset = [data[i].strip().split(',') for i in range(len(data)) if(data[i].strip()!="") ]
 	
 	for x in range(len(dataset)):
 		for y in range(4):
