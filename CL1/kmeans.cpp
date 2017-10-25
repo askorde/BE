@@ -73,7 +73,6 @@ public:
 		}
 		cout<<endl<<endl;
 	}
-	
 };
 
 int main()
