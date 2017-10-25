@@ -54,7 +54,7 @@ public:
 			for(int j=0;j<k;j++)
 				if(abs(data[i]-seed[j]) < min)
 				{
-					min = data[i]-seed[j];
+					min = abs(data[i]-seed[j]);
 					cluster[i] = j;
 				}
 			c[cluster[i]]++;
