@@ -66,8 +66,9 @@ public:
 
 			for(int i=0;i<k;i++)
 			{
-					flag = true;
-				else flag = false;
+				if(abs(seed[i]-sum[i]/c[i]) <= th)
+					flag = false;
+				else flag = true;
 				seed[i]=sum[i]/c[i];
 				cout<<"Cluster "<<i<<":";
 				for(int j=0;j<n;j++)
